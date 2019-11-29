@@ -1,0 +1,13 @@
+var x,y,r;
+
+procedure max;
+begin
+  r:=x;
+  if x<y then r:=y;
+end;
+
+begin
+	read(x,y);
+	call max;
+	write(r);
+end.

@@ -1,0 +1,20 @@
+const i = 1;
+var x;
+
+procedure aa;
+var m;
+begin
+	read(m);
+	x := 0;
+	while i <= m do
+	begin
+		x := x+m;
+		m := m-1;
+	end;
+	write(x)
+end;
+
+
+begin
+	call aa;
+end.
