@@ -2,8 +2,8 @@ package scanner
 
 import (
 	"log"
-	"pl0compiler/fileio"
-	"pl0compiler/token"
+	"github.com/zu1k/pl0complier/fileio"
+	"github.com/zu1k/pl0complier/token"
 	"unicode"
 )
 

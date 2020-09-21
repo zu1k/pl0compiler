@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 	"os"
-	parser2 "pl0compiler/parser"
-	"pl0compiler/scanner"
-	"pl0compiler/token"
+	parser2 "github.com/zu1k/pl0complier/parser"
+	"github.com/zu1k/pl0complier/scanner"
+	"github.com/zu1k/pl0complier/token"
 )
 
 type Config struct {

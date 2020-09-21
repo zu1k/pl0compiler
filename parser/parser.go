@@ -6,13 +6,13 @@ package parser
 
 import (
 	"log"
-	"pl0compiler/asm"
-	"pl0compiler/interpret"
-	"pl0compiler/parser/fct"
-	"pl0compiler/parser/ident"
-	"pl0compiler/parser/selectset"
-	"pl0compiler/scanner"
-	"pl0compiler/token"
+	"github.com/zu1k/pl0complier/asm"
+	"github.com/zu1k/pl0complier/interpret"
+	"github.com/zu1k/pl0complier/parser/fct"
+	"github.com/zu1k/pl0complier/parser/ident"
+	"github.com/zu1k/pl0complier/parser/selectset"
+	"github.com/zu1k/pl0complier/scanner"
+	"github.com/zu1k/pl0complier/token"
 )
 
 type Parser struct {

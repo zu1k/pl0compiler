@@ -4,7 +4,7 @@
  */
 package selectset
 
-import "pl0compiler/token"
+import "github.com/zu1k/pl0complier/token"
 
 var (
 	StatementSelect = []token.Token{

@@ -4,7 +4,7 @@
  */
 package asm
 
-import "pl0compiler/parser/fct"
+import "github.com/zu1k/pl0complier/parser/fct"
 
 type Asm struct {
 	Fct fct.Fct

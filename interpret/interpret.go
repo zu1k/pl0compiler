@@ -6,8 +6,8 @@ package interpret
 
 import (
 	"log"
-	"pl0compiler/asm"
-	"pl0compiler/parser/fct"
+	"github.com/zu1k/pl0complier/asm"
+	"github.com/zu1k/pl0complier/parser/fct"
 )
 
 var s [200]int
